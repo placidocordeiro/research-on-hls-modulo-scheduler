@@ -1,0 +1,30 @@
+# Build outputs
+build/
+*.o
+*.exe
+*.out
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# Generated DFG files (should live only inside build/)
+*.dot
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AI / agent context (local-only)
+contextos/
+AGENTS.md
+.opencode/
+
+# OS
+.DS_Store
+Thumbs.db

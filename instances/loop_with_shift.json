@@ -1,0 +1,21 @@
+{
+  "name": "loop_with_shift",
+  "resources": [
+    {"type": "load",  "count": 1},
+    {"type": "shift", "count": 1},
+    {"type": "add",   "count": 1},
+    {"type": "store", "count": 1}
+  ],
+  "nodes": [
+    {"id": 0, "op": "load",  "latency": 2},
+    {"id": 1, "op": "shift", "latency": 1},
+    {"id": 2, "op": "add",   "latency": 1},
+    {"id": 3, "op": "store", "latency": 1}
+  ],
+  "edges": [
+    {"from": 0, "to": 1, "distance": 0},
+    {"from": 1, "to": 2, "distance": 0},
+    {"from": 2, "to": 3, "distance": 0},
+    {"from": 3, "to": 0, "distance": 1}
+  ]
+}

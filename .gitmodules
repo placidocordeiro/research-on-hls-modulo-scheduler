@@ -1,0 +1,13 @@
+[submodule "third_party/json"]
+	path = third_party/json
+	url = https://github.com/nlohmann/json.git
+[submodule "third_party/benchmarks/chstone"]
+	path = third_party/benchmarks/chstone
+	url = https://github.com/ferrandi/CHStone.git
+[submodule "third_party/benchmarks/polybench"]
+	path = third_party/benchmarks/polybench
+	url = https://github.com/ferrandi/PolyBenchC.git
+	branch = dev/panda-hls
+[submodule "third_party/benchmarks/machsuite"]
+	path = third_party/benchmarks/machsuite
+	url = https://github.com/ferrandi/MachSuite.git
